@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_home_width"
+        >129dp</dimen>
+    <dimen name="logo_home_height"
+        >156dp</dimen>
+    <dimen name="slogan_size">13sp</dimen>
+    <dimen name="connection_logo_size">40dp</dimen>
+
+</resources>
