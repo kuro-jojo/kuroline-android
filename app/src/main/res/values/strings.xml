@@ -10,9 +10,26 @@
     <string name="password">Password</string>
     <string name="username">Username</string>
     <string name="confirm_password">Confirm password</string>
-    <string name="email_or_passorwd">Email or password</string>
-    <string name="already_have_an_account">Already have an account</string>
+    <string name="already_have_an_account">Already have an account? Log In</string>
     <string name="new_user_create_an_account">New user? Create an account</string>
     <string name="sign_in">Sign in</string>
     <string name="sign_up">Sign up</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="telephone">Phone number</string>
+    <string name="continuer">Continue</string>
+    <string name="digit_code">A 4-digit code will be sent to the above number for verification</string>
+    <string name="tspp">By choosing to continue, you’re agreeing to our Terms of service and Privacy Policy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="code_to_sent_message">We texted a code to <b>%s</b> please enter it below</string>
 </resources>

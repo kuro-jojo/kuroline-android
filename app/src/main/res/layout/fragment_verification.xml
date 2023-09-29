@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.login.VerificationFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="left"
+                android:layout_marginBottom="10dp"
+                android:background="@mipmap/logo_home_foreground" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Verify your number"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/code_to_sent_message"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/code_to_sent_message"
+               android:textSize="18dp"
+               android:textColor="@color/black"
+               android:gravity="center"
+               android:layout_gravity="center"/>
+
+            <!-- OTP Verification Layout -->
+            <GridLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="72dp"
+                android:columnCount="6"
+                android:rowCount="1">
+
+                <!-- OTP Input Fields -->
+                <EditText
+                    android:id="@+id/phone_number1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:layout_columnWeight="1"/>
+
+                <EditText
+                    android:id="@+id/phone_number2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:layout_columnWeight="1"
+                    android:enabled="false"/>
+
+                <EditText
+                    android:id="@+id/phone_number3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:layout_columnWeight="1"
+                    android:enabled="false"/>
+
+                <EditText
+                    android:id="@+id/phone_number4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:layout_columnWeight="1"
+                    android:enabled="false"/>
+
+                <EditText
+                    android:id="@+id/phone_number5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:layout_columnWeight="1"
+                    android:enabled="false"/>
+
+                <EditText
+                    android:id="@+id/phone_number6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:layout_columnWeight="1"
+                    android:enabled="false"/>
+            </GridLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/verify_continue_btn"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@color/primary"
+            android:text="@string/continuer" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
